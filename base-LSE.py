@@ -62,7 +62,8 @@ class ListaSE:
         while actual.siguiente.siguiente:
             actual = actual.siguiente
         actual.siguiente = None
-	# eliminar el primer elemento    def eliminarPrimero(self):
+	# eliminar el primer elemento   
+    def eliminarPrimero(self):
         if self.cabeza is None:
             return
         self.cabeza = self.cabeza.siguiente
